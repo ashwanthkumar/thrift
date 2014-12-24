@@ -100,6 +100,9 @@ From the top directory, do:
 
 	./configure
 
+To build locally (specific to us)
+	./configure --with-cpp=false --with-python=false --with-ruby=false --with-perl=false --with-python=false --with-php=false
+
 You may need to specify the location of the boost files explicitly.
 If you installed boost in /usr/local, you would run configure as follows:
 
